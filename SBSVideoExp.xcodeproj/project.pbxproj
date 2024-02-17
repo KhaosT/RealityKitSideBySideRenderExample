@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC8203002B8033D3005AE44F /* Demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CC8202FF2B8033D3005AE44F /* Demo.mp4 */; };
+		CCAF14B12B7EFC4600C3B9B5 /* SBSVideoExpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF14B02B7EFC4600C3B9B5 /* SBSVideoExpApp.swift */; };
+		CCAF14B32B7EFC4600C3B9B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF14B22B7EFC4600C3B9B5 /* ContentView.swift */; };
+		CCAF14B52B7EFC4800C3B9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAF14B42B7EFC4800C3B9B5 /* Assets.xcassets */; };
+		CCAF14B82B7EFC4800C3B9B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAF14B72B7EFC4800C3B9B5 /* Preview Assets.xcassets */; };
+		CCAF14C02B7EFC8900C3B9B5 /* VideoPlaybackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF14BF2B7EFC8900C3B9B5 /* VideoPlaybackViewModel.swift */; };
+		CCAF14C22B7EFD1900C3B9B5 /* SBSMaterial.usda in Resources */ = {isa = PBXBuildFile; fileRef = CCAF14C12B7EFD1900C3B9B5 /* SBSMaterial.usda */; };
+		CCAF14C42B7EFDC800C3B9B5 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF14C32B7EFDC800C3B9B5 /* PlayerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC8202FF2B8033D3005AE44F /* Demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Demo.mp4; sourceTree = "<group>"; };
+		CCAF14A92B7EFC4600C3B9B5 /* SBSVideoExp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBSVideoExp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAF14B02B7EFC4600C3B9B5 /* SBSVideoExpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBSVideoExpApp.swift; sourceTree = "<group>"; };
+		CCAF14B22B7EFC4600C3B9B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCAF14B42B7EFC4800C3B9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCAF14B72B7EFC4800C3B9B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCAF14B92B7EFC4800C3B9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAF14BF2B7EFC8900C3B9B5 /* VideoPlaybackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlaybackViewModel.swift; sourceTree = "<group>"; };
+		CCAF14C12B7EFD1900C3B9B5 /* SBSMaterial.usda */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SBSMaterial.usda; sourceTree = "<group>"; };
+		CCAF14C32B7EFDC800C3B9B5 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCAF14A62B7EFC4600C3B9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCAF14A02B7EFC4600C3B9B5 = {
+			isa = PBXGroup;
+			children = (
+				CCAF14AB2B7EFC4600C3B9B5 /* SBSVideoExp */,
+				CCAF14AA2B7EFC4600C3B9B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCAF14AA2B7EFC4600C3B9B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCAF14A92B7EFC4600C3B9B5 /* SBSVideoExp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCAF14AB2B7EFC4600C3B9B5 /* SBSVideoExp */ = {
+			isa = PBXGroup;
+			children = (
+				CCAF14B02B7EFC4600C3B9B5 /* SBSVideoExpApp.swift */,
+				CCAF14B22B7EFC4600C3B9B5 /* ContentView.swift */,
+				CCAF14BF2B7EFC8900C3B9B5 /* VideoPlaybackViewModel.swift */,
+				CCAF14C32B7EFDC800C3B9B5 /* PlayerView.swift */,
+				CC8202FF2B8033D3005AE44F /* Demo.mp4 */,
+				CCAF14C12B7EFD1900C3B9B5 /* SBSMaterial.usda */,
+				CCAF14B42B7EFC4800C3B9B5 /* Assets.xcassets */,
+				CCAF14B92B7EFC4800C3B9B5 /* Info.plist */,
+				CCAF14B62B7EFC4800C3B9B5 /* Preview Content */,
+			);
+			path = SBSVideoExp;
+			sourceTree = "<group>";
+		};
+		CCAF14B62B7EFC4800C3B9B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCAF14B72B7EFC4800C3B9B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCAF14A82B7EFC4600C3B9B5 /* SBSVideoExp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAF14BC2B7EFC4800C3B9B5 /* Build configuration list for PBXNativeTarget "SBSVideoExp" */;
+			buildPhases = (
+				CCAF14A52B7EFC4600C3B9B5 /* Sources */,
+				CCAF14A62B7EFC4600C3B9B5 /* Frameworks */,
+				CCAF14A72B7EFC4600C3B9B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBSVideoExp;
+			packageProductDependencies = (
+			);
+			productName = SBSVideoExp;
+			productReference = CCAF14A92B7EFC4600C3B9B5 /* SBSVideoExp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCAF14A12B7EFC4600C3B9B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CCAF14A82B7EFC4600C3B9B5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = CCAF14A42B7EFC4600C3B9B5 /* Build configuration list for PBXProject "SBSVideoExp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCAF14A02B7EFC4600C3B9B5;
+			productRefGroup = CCAF14AA2B7EFC4600C3B9B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCAF14A82B7EFC4600C3B9B5 /* SBSVideoExp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCAF14A72B7EFC4600C3B9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAF14B82B7EFC4800C3B9B5 /* Preview Assets.xcassets in Resources */,
+				CCAF14B52B7EFC4800C3B9B5 /* Assets.xcassets in Resources */,
+				CCAF14C22B7EFD1900C3B9B5 /* SBSMaterial.usda in Resources */,
+				CC8203002B8033D3005AE44F /* Demo.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCAF14A52B7EFC4600C3B9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAF14C02B7EFC8900C3B9B5 /* VideoPlaybackViewModel.swift in Sources */,
+				CCAF14B32B7EFC4600C3B9B5 /* ContentView.swift in Sources */,
+				CCAF14B12B7EFC4600C3B9B5 /* SBSVideoExpApp.swift in Sources */,
+				CCAF14C42B7EFDC800C3B9B5 /* PlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CCAF14BA2B7EFC4800C3B9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		CCAF14BB2B7EFC4800C3B9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		CCAF14BD2B7EFC4800C3B9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SBSVideoExp/Preview Content\"";
+				DEVELOPMENT_TEAM = PP4C5TR737;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.cerio.SBSVideoExp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		CCAF14BE2B7EFC4800C3B9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SBSVideoExp/Preview Content\"";
+				DEVELOPMENT_TEAM = PP4C5TR737;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.cerio.SBSVideoExp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCAF14A42B7EFC4600C3B9B5 /* Build configuration list for PBXProject "SBSVideoExp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAF14BA2B7EFC4800C3B9B5 /* Debug */,
+				CCAF14BB2B7EFC4800C3B9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAF14BC2B7EFC4800C3B9B5 /* Build configuration list for PBXNativeTarget "SBSVideoExp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAF14BD2B7EFC4800C3B9B5 /* Debug */,
+				CCAF14BE2B7EFC4800C3B9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCAF14A12B7EFC4600C3B9B5 /* Project object */;
+}
