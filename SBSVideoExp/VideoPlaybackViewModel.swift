@@ -171,7 +171,7 @@ final class VideoPlaybackViewModel {
             do {
                 let drawableQueue = try TextureResource.DrawableQueue(
                     TextureResource.DrawableQueue.Descriptor(
-                        pixelFormat: .rgba8Unorm,
+                        pixelFormat: .bgra8Unorm,
                         width: width,
                         height: height,
                         usage: [.renderTarget, .shaderRead, .shaderWrite],
@@ -203,7 +203,7 @@ final class VideoPlaybackViewModel {
                 textureCache!,
                 buffer,
                 nil,
-                .rgba8Unorm,
+                .bgra8Unorm,
                 width,
                 height,
                 0,
